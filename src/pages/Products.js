@@ -1,11 +1,11 @@
 import React from 'react'
 import imj from "../images/Designs.jpg"
-import blazer from "../images/blazer.jpg"
-import hoodie from "../images/pullover.jpg"
-import beanie from "../images/beanie.jpg"
-import harvest from "../images/fresh-removebg.png"
-import boy from "../images/fresh-boy-harvest.png"
-import organic from "../images/organic.png"
+import blazer from "../images/blazer-min.png"
+import hoodie from "../images/sweater-min.png"
+import beanie from "../images/beanie-min.png"
+import customer from "../images/receptionist-flatline.png"
+import quality from "../images/quality-check-flatline.png"
+import wide from "../images/decision-flatline.png"
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -23,7 +23,7 @@ function Products() {
 
       <div className='md:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto justify-center'>
-          <img alt="High Quality" src={boy} className='mx-auto h-48'/>
+          <img alt="High Quality" src={quality} className='mx-auto h-48'/>
           <h2 className='mt-4 text-2xl font-semibold'> Top Quality</h2>
           <p className='mt-2'>Get the best Quality Embroidery Services</p>
         </div>
@@ -32,7 +32,7 @@ function Products() {
 
       <div className='d:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto'>
-        <img src={organic} alt="WIde" className='mx-auto h-48'/>
+        <img src={wide} alt="WIde" className='mx-auto h-48'/>
           <h2 className='mt-4 text-2xl font-semibold'>Wide Selection</h2>
           <p className='mt-2'>Choose from a wide range of designs, materials and services.</p>
         </div>
@@ -41,7 +41,7 @@ function Products() {
 
       <div className='md:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto'>
-        <img src={harvest} alt="Customer Service" className='mx-auto h-48'/>
+        <img src={customer} alt="Customer Service" className='mx-auto h-48'/>
           <h2 className='mt-4 text-2xl font-semibold'>Customer Service</h2>
           <p className='mt-2'>We are always available for any questions or feedback</p>
         </div>
@@ -52,7 +52,7 @@ function Products() {
     <div className='bg-gray-100 pattern-diagonal-lines-sm'>
       <div className='scroll-animate flex flex-col md:flex-row p-14 justify-center'>
         <div className='md:w-1/2 flex justify-center'>
-          <img src= {blazer} alt="Blazer" className='w-96'/>
+          <img src= {blazer} alt="Blazer" className='w-auto'/>
         </div>
         <div className='md:w-1/2 md:pr-24'>
           <h1 className='text-5xl font-bold py-6'>Shirts & Blazers</h1>
@@ -63,7 +63,7 @@ function Products() {
 
       <div className='scroll-animate flex flex-col  md:flex-row-reverse p-14 justify-center'>
         <div className='md:w-1/2 flex justify-center'>
-          <img src= {hoodie} alt="Jacket" className='w-96'/>
+          <img src= {hoodie} alt="Jacket" className='w-auto'/>
         </div>
         <div className='md:w-1/2 md:pl-24'>
           <h1 className='text-5xl font-bold py-6'>Jackets and Hoodies</h1>
@@ -74,7 +74,7 @@ function Products() {
 
       <div className='scroll-animate flex flex-col md:flex-row  p-14 justify-center'>
         <div className='md:w-1/2 flex justify-center'>
-          <img src= {beanie} alt="Beanie" className='w-96'/>
+          <img src= {beanie} alt="Beanie" className='w-auto'/>
         </div>
         <div className='md:w-1/2 md:pr-24'>
           

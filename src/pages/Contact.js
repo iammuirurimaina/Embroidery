@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import img from "../images/contact_us.jpeg"
+import img from "../images/customer-service-flatline.png"
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer';
 import emailjs from '@emailjs/browser';

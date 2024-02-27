@@ -25,13 +25,13 @@ function Footer() {
             href="#"
             className="block text-2xl font-medium text-black hover:opacity-75 sm:text-3xl"
           >
-            0746260004
+            0746593345
           </a>
         </p>
 
         <ul className="mt-8 space-y-1 text-sm text-gray-700">
-          <li>Monday to Friday: 10am - 5pm</li>
-          <li>Weekend: 10am - 3pm</li>
+          <li>Monday to Friday: 8am - 9pm</li>
+          <li>Weekend: 10am - 8pm</li>
         </ul>
 
         <ul className="mt-8 flex gap-6">
@@ -156,7 +156,7 @@ function Footer() {
         </ul>
 
         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2024 Rafonzo Designs. All rights reserved.
+          &copy; 2024 Kenya Logos. All rights reserved.
         </p>
       </div>
     </div>

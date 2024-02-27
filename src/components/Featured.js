@@ -8,7 +8,7 @@ function Featured() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="hidden md:flex w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-              <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-lime-400 w-full mb-6 shadow-lg rounded-lg bg-lime-300">
+              <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-pink-50 w-full mb-6 shadow-lg rounded-lg bg-pink-50">
                 <img alt="Embroidery" src={embroideryImage} className="w-full h-128 align-middle rounded-t-lg" />
                 <blockquote className="relative p-8 mb-4">
                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">
@@ -30,7 +30,7 @@ function Featured() {
                   <div className="relative flex flex-col mt-4">
                     <div className="scroll-animate animate__slideInUp px-4 py-5 flex-auto">
                       <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-brain"></i>
+                        <i className="fas fa-palette"></i>
                       </div>
                       <h6 className="text-transparent text-xl bg-clip-text mb-1 font-semibold bg-gradient-to-r from-pink-300 to-blue-600"> Custom Embroidery</h6>
                       <p className="mb-4 text-blueGray-500">
@@ -69,7 +69,7 @@ function Featured() {
                       <div className="text-lime-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-wallet"></i>
                       </div>
-                      <h6 className="text-transparent text-xl bg-clip-text mb-1 font-semibold bg-gradient-to-r from-pink-300 to-blue-600">Affordable Luxury</h6>
+                      <h6 className="text-transparent text-xl bg-clip-text mb-1 font-semibold bg-gradient-to-r from-pink-300 to-blue-600">Affordable</h6>
                       <p className="mb-4 text-blueGray-500">
                         Experience the luxury of custom embroidery without breaking the bank. Our affordable pricing ensures high-quality craftsmanship accessible to all.
                       </p>
