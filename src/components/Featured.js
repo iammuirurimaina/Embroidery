@@ -8,7 +8,7 @@ function Featured() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="hidden md:flex w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-              <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-pink-50 w-full mb-6 shadow-lg rounded-lg bg-pink-50">
+              <div className="scroll-animate animate__slideInUp relative flex flex-col min-w-0 break-words bg-red-500 w-full mb-6 shadow-lg rounded-lg bg-pink-50">
                 <img alt="Embroidery" src={embroideryImage} className="w-full h-128 align-middle rounded-t-lg" />
                 <blockquote className="relative p-8 mb-4">
                   <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" className="absolute left-0 w-full block h-95-px -top-94-px">

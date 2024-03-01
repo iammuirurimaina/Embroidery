@@ -11,11 +11,11 @@ function Gallery() {
     <div className="container1">
       <div className="card">
         <img src={tomato} alt="..." />
-        <div className="card__head bg-blue-400">School Logo Designs</div>
+        <div className="card__head bg-green-400">School Logo Designs</div>
       </div>
       <div className="card">
         <img src={bellpepper} alt="..." />
-        <div className="card__head bg-blue-400">Stitching-Friendly Formats</div>
+        <div className="card__head bg-green-400">Stitching-Friendly Formats</div>
       </div>
       {/* <div className="card">
         <img src={potato} alt="..." />
@@ -23,11 +23,11 @@ function Gallery() {
       </div> */}
       <div className="card">
         <img src={peppers} alt="..." />
-        <div className="card__head bg-blue-400">Perfect Designs for Projects</div>
+        <div className="card__head bg-green-400">Perfect Designs for Projects</div>
       </div>
       <div className="card">
         <img src={fruits} alt="..." />
-        <div className="card__head bg-blue-400">Showcase School Pride</div>
+        <div className="card__head bg-green-400">Showcase School Pride</div>
       </div>
     </div>
   );

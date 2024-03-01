@@ -26,9 +26,9 @@ function HeroDiv() {
     </div>
 
   <div className="flex flex-row justify-center mb-8 sm:justify-start space-x-8 md:space-x-4 ">
-  <button className="bg-black h-12 w-32 text-sm text-white"> <Link to="/contact-us" >Contact us</Link></button>
-  <button className="text-sm flex items-center gap-x-2">
-   <Link to="/products" className='flex gap-x-2 items-center'> Designs <FaLongArrowAltRight className='text-base' /> </Link>
+  <button className="bg-green-500 h-12 w-32 text-sm text-white"> <Link to="/contact-us" >Contact us</Link></button>
+  <button className=" h-12 w-32 text-sm">
+   <Link to="/products" className=' flex gap-x-2 items-center'> Designs <FaLongArrowAltRight className='text-base' /> </Link>
   </button>
   </div>
 

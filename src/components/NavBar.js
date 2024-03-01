@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import hhalogo from "../images/logo-removebg.png"
+import hhalogo from "../images/kelogos.png"
 
 function NavBar() {
 
@@ -16,7 +16,7 @@ function NavBar() {
   }
 
   return (
-    <nav className='mx-auto flex h-30 text-black bg-pink-50'>
+    <nav className='mx-auto flex h-30 text-black bg-red-500'>
       <div className='flex flex-row md:w-2/3 space-x-56'>
       <div className='mx-auto w-1/4' >
         <img  onClick={handleNavigation} src={hhalogo} alt="logo"/>

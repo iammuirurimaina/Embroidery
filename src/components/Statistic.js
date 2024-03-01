@@ -7,7 +7,7 @@ import { faSmile } from '@fortawesome/free-regular-svg-icons'
 
 function Statistic() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-pink-50">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-red-500">
     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
       <div className="scroll-animate animate__slideInUp text-center">
         <div className="text-lime-300 text-xl p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">

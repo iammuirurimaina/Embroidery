@@ -18,23 +18,23 @@ function Products() {
         <h3 className='animate__animated animate__hinge  text-gray-200'>Home > Designs</h3>
       </div>
       
-    <div className='bg-pink-50 md:p-20'>
+    <div className='bg-black md:p-20'>
       <div className='flex flex-col md:flex-row  justify-center md:space-x-8'>
 
       <div className='md:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto justify-center'>
           <img alt="High Quality" src={quality} className='mx-auto h-48'/>
-          <h2 className='mt-4 text-2xl font-semibold'> Top Quality</h2>
-          <p className='mt-2'>Get the best Quality Embroidery Services</p>
+          <h2 className='mt-4 text-2xl text-white font-semibold'> Top Quality</h2>
+          <p className='text-white mt-2'>Get the best Quality Embroidery Services</p>
         </div>
       </div>
 
 
       <div className='d:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto'>
-        <img src={wide} alt="WIde" className='mx-auto h-48'/>
-          <h2 className='mt-4 text-2xl font-semibold'>Wide Selection</h2>
-          <p className='mt-2'>Choose from a wide range of designs, materials and services.</p>
+        <img src={wide} alt="Wide" className='mx-auto h-48'/>
+          <h2 className='mt-4 text-2xl text-white font-semibold'>Wide Selection</h2>
+          <p className='mt-2 text-white'  >Choose from a wide range of designs, materials and services.</p>
         </div>
       </div>
 
@@ -42,14 +42,14 @@ function Products() {
       <div className='md:w-1/3 flex flex-col text-center md:p-12'>
         <div className='scroll-animate mx-auto'>
         <img src={customer} alt="Customer Service" className='mx-auto h-48'/>
-          <h2 className='mt-4 text-2xl font-semibold'>Customer Service</h2>
-          <p className='mt-2'>We are always available for any questions or feedback</p>
+          <h2 className='mt-4 text-2xl text-white font-semibold'>Customer Service</h2>
+          <p className='mt-2 text-white '>We are always available for any questions or feedback</p>
         </div>
       </div>
     </div>
     </div>
 
-    <div className='bg-gray-100 pattern-diagonal-lines-sm'>
+    <div className='bg-white pattern-diagonal-lines-sm'>
       <div className='scroll-animate flex flex-col md:flex-row p-14 justify-center'>
         <div className='md:w-1/2 flex justify-center'>
           <img src= {blazer} alt="Blazer" className='w-auto'/>
@@ -61,8 +61,8 @@ function Products() {
         </div>
       </div>
 
-      <div className='scroll-animate flex flex-col  md:flex-row-reverse p-14 justify-center'>
-        <div className='md:w-1/2 flex justify-center'>
+      <div className=' bg-green-600 scroll-animate flex flex-col  md:flex-row-reverse p-14 justify-center'>
+        <div className=' md:w-1/2 flex justify-center'>
           <img src= {hoodie} alt="Jacket" className='w-auto'/>
         </div>
         <div className='md:w-1/2 md:pl-24'>

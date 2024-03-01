@@ -121,7 +121,7 @@ function Contact() {
     />
     <button
       type="submit"
-      className="w-full bg-pink-100 text-black py-2 px-4 rounded-md hover:bg-pink-400"
+      className="w-full bg-red-500 text-black py-2 px-4 rounded-md hover:bg-green-600"
     >
       Submit
     </button>
@@ -133,7 +133,7 @@ function Contact() {
 		<img src={img} alt="Contact_Image" className='p-24 animate__animated animate__slideInLeft w-full h-full object-contain'/>
 	</div>
 	</div>
-	<h2 className='text-3xl text-center font-medium py-8 bg-pink-200'>Our Location</h2>
+	<h2 className='text-3xl text-center font-medium py-8 bg-green-500'>Our Location</h2>
 	<div className="w-full h-96">
 	  <iframe title="HHAFarm" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.1166181257804!2d37.06607207590261!3d-1.0745926354333375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMDQnMjguNiJTIDM3wrAwNCcwNy4xIkU!5e0!3m2!1sen!2ske!4v1692721686960!5m2!1sen!2ske" width="600" height="450" allowfullscreen="" className="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
