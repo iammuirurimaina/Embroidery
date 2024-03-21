@@ -16,7 +16,7 @@ function NavBar() {
   }
 
   return (
-    <nav className='mx-auto flex h-30 text-black bg-red-500'>
+    <nav className='mx-auto flex h-30 text-black'>
       <div className='flex flex-row md:w-2/3 space-x-56'>
       <div className='mx-auto w-1/4' >
         <img  onClick={handleNavigation} src={hhalogo} alt="logo"/>

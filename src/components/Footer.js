@@ -4,7 +4,7 @@ import nina from "../images/contactimage.avif"
 function Footer() {
   return (
     <div>
-        <footer className="bg-red-500 lg:grid lg:grid-cols-5">
+        <footer className="lg:grid lg:grid-cols-5">
   <div className="relative block h-32 lg:col-span-2 lg:h-full">
     <img
       src={nina}
